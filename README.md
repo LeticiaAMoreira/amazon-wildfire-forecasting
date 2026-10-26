@@ -20,8 +20,9 @@ The methodological pipeline integrates:
 │   ├── fire_graph_metrics.csv       # NASA MODIS fire hotspots and Chronnet topological metrics
 │   └── integrated_analysis.csv      # Single unified dataset used for correlation, PCMCI, and forecasting
 ├── scripts/
-│   ├── 01_correlation.ipynb         # Spearman correlation matrix generation
-│   ├── 02_causality_pcmci.ipynb     # Lagged conditional dependence tests (ParCorr, GPDC, Spearman)
-│   └── 03_prediction_models.ipynb   # Rolling-window validation for NB2, RF, XGBoost, MLP, SARIMAX
+|   ├── 01_network_extraction.ipynb  # Fire graph metrics
+│   ├── 02_correlation.ipynb         # Spearman correlation matrix generation
+│   ├── 03_causality_pcmci.ipynb     # Lagged conditional dependence tests (ParCorr, GPDC, Spearman)
+│   └── 04_prediction_models.ipynb   # Rolling-window validation for NB2, RF, XGBoost, MLP, SARIMAX
 ├── requirements.txt                 # Python dependencies
 └── README.md
